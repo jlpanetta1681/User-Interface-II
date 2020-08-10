@@ -5,8 +5,8 @@
     margin:0;
     max-width:100%;
     font-size:62.5%;
-    border:1px solid black;
+    border:3 solid black;
 }
-.nav{
+header {
 display:flex;
 }

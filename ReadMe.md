@@ -10,7 +10,7 @@ The module challenge is the afternoon project or assignment that students work t
 - identify and explain all properties in the box model
 - describe and understand that flexbox is a module
 - demonstrate understanding of flex container properties in flex box
-
+S
 ## Introduction
 
 In this challenge you will be building a simple portfolio website based on a wireframe of your choosing using the CSS principles covered today.
@@ -66,7 +66,7 @@ The following goals are designed to stretch your knowledge and may require addit
 
 ## Resources
 
-👋 [Assignment help: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+👋 [Assignment help: A Complete Guide to Flexbox](ps://css-thttricks.com/snippets/css/a-guide-to-flexbox/)
 
 👀 [Explore a Curated Gallery of Professional Portfolios](https://wpamelia.com/portfolio-websites/#webdev)
 
@@ -79,3 +79,4 @@ Follow these steps for completing your project.
 - [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your Team Lead as a reviewer on the pull request
 - [ ] Your Team Lead will count the project as complete by merging the branch back into master
+change for initial commit
