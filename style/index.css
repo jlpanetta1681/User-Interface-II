@@ -113,12 +113,28 @@ footer nav a{
     width: 80%;
     }
     body{
+        width: 50%
         font-size: 1.6rem;
     }
    
 }
-
-
+@media(max-width: 500px){
+   body{
+    margin-left: 3%; 
+    width: 50%;
+    font-size: 1rem;
+}
+.section2{
+    display:flex;
+    flex-direction: column;
+}
+.top-pics{
+    flex-direction: column;
+}
+.bottom-pics{
+    flex-direction: column
+}
+}
 
 
 
