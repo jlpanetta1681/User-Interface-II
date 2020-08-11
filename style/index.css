@@ -20,7 +20,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -29,7 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body{
 	line-height: 1;
 }
 ol, ul {
@@ -47,7 +47,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-h1{
+
+
+
+  h1{
     font-size: 1.5rem;
     text-decoration: underline;
     letter-spacing: 3px;
@@ -65,6 +68,7 @@ nav{
     flex-direction: column;
     width:90%;
     margin-left: 5%;
+    padding-bottom: 2%;
 }
  .section2 .intro-title{
     display:flex;
@@ -78,23 +82,39 @@ nav{
        display:flex;
        width:80%;
        margin-left: 6%;
+       padding-bottom: 2%;
 
    }
 
 
-   .top-pics{
+
+  .projects{
+    width:100%;
     margin-top: 3%;
     margin-bottom: 3%;
     display:flex;
-    justify-content: space-evenly;
+    
 }
-   .bottom-pics{
+   .left-pics{
     margin-top: 3%;
     margin-bottom: 3%;
     display: flex;
-    justify-content: space-evenly;
-}
+    flex-direction: column;
+    justify-content: space-between;
+   }
 
+   .middle-pics{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+   }
+   .project-descriptions p{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+   }
 footer {
     width: 100%;
     background: black;
@@ -114,19 +134,23 @@ footer nav a{
     }
     body{
         width: 50%
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
    
 }
 @media(max-width: 500px){
+    nav{
+        width:50%;
+    }
    body{
     margin-left: 3%; 
     width: 50%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .section2{
     display:flex;
     flex-direction: column;
+    just
 }
 .top-pics{
     flex-direction: column;
