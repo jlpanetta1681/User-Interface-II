@@ -124,8 +124,7 @@ nav{
     
     .text-box #bottom{
         padding-top:10%;
-    }
-     
+    }    
 
    
 footer {
@@ -141,6 +140,13 @@ footer nav a{
     font-size: 14px;
     color: white;
 }
+
+
+
+
+
+
+
 @media(max-width:800px){
     nav{
     width: 60%;
