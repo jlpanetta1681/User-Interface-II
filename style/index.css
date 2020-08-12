@@ -1,138 +1,130 @@
 /* Add CSS styling here */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 3%;
-	border: 0;
-	font-size: 62.5%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, 
+  ;
+    padding: 0 auto;
+    border: 0;
+    font-size: 62.5%;
+    font: inherit;
+    vertical-align: baseline;
+  width: 95%;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
-body{
-	line-height: 1;
+
+body {
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-
-
-  h1{
+h1 {
     font-size: 1.5rem;
     text-decoration: underline;
     letter-spacing: 3px;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
-nav{
+
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 3%;
     margin-top: 2%;
 }
+
 .section2 {
     display: flex;
     flex-direction: column;
-    width:90%;
+    width: 85%;
     margin-left: 5%;
-    padding-bottom: 2%;
+    margin bottom: 3%;
 }
- .section2 .intro-title{
-    display:flex;
+
+.section2 .intro-title {
+    display: flex;
     font-style: bold;
     justify-content: center;
     padding-bottom: 2%;
     font-size: large;
-  }
-   .section2 p{
-       letter-spacing: 1px;
-       display:flex;
-       width:80%;
-       margin-left: 6%;
-       padding-bottom: 2%;
-
-   }
-
-
-
-  .projects{
-   
-    margin-top: 3%;
-  
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
-    
-    
 }
-   .left-pics{
+
+.section2 p {
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 5%;
+  
+}
+
+.projects {
+    width: 95%;
+    margin-top: 3%;
+    display: flex;
     
+   
+}
+
+.left-pics {
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding: 3rem;
-   
-   }
+}
 
-   .middle-pics{
-        padding: 3rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-   }
-   .text-box{
-       display: flex;
-       flex-direction:column;
-       align-self: center: 
-   }
-   .text-box #top{
-       padding-bottom: 2%;
-    }
-    
-    .text-box #bottom{
-        padding-top:10%;
-    }    
+.middle-pics {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-   
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-self: center: padding-top: 3%;
+}
+
+.text-box #top {
+    padding-top: 20%;
+}
+
+.text-box #bottom {
+    padding-top: 20%;
+}
+
 footer {
     width: 100%;
     background: black;
 }
 
-footer nav a{
+footer nav a {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -141,49 +133,41 @@ footer nav a{
     color: white;
 }
 
-
-
-
-
-
-
-@media(max-width:800px){
-    nav{
-    width: 60%;
-    }
-    body{
-        width: 50%
+@media(max-width:800px) {
+    body {
+        width: 80%;
         font-size: 1rem;
     }
-   
-}
-@media(max-width: 500px){
-    nav{
-        width:40%;
+    nav {
+        width: 60%;
+        display flex;
+        flex-wrap: wrap;
     }
-   body{
+    .projects{
+        witdh:50%;
+    justify-content: space-evenly;    }
     
+    .
+}
+
+@media(max-width: 500px){
+
+body {
     width: 60%;
     font-size: .8rem;
 }
-.section2{
-    display:flex;
+
+nav {
+    width: 40%
+}
+
+.section2 {
     flex-direction: column;
-    just
+    justify-content: center;
 }
 .projects{
-    flex-direction: row;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
-.left-pics{
-    flex-direction: column;
-}
-.middle-pics{
-    flex-direction: column
-}
-
-
-
-
-
-
 

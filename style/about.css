@@ -46,3 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+nav{
+	display:flex;
+	justify-content: center;
+	margin: 6%;
+	border:1em double black;
+	width: 75%;
+}
+nav button{
+	margin: 3% 18%;
+	justify-content: space-between;
+	border:.2em double blue;
+	background-color: lightslategray;
+}
